@@ -33,7 +33,7 @@ function deleteFromObjectByKey(object, key){
 
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object)
-  delete newObj.key
+  p(newObj.key)
   p(newObj)
 }
 
