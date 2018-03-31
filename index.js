@@ -34,12 +34,12 @@ function deleteFromObjectByKey(object, key){
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object)
   delete newObj[key];
-  return newObj
-  return recipes
+  p(newObj)
+  p(recipes)
   
 }
 
-p(deleteFromObjectByKey(recipes, "EggSandwhich"))
+deleteFromObjectByKey(recipes, "EggSandwhich")
 
 
 
