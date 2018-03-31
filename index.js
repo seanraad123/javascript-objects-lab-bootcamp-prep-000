@@ -43,7 +43,7 @@ function destructivelyDeleteFromObjectByKey(object, key){
 
 function destructivelyDeleteFromObjectByKey(obj, key,) {
  
-  return Object.assign({}, obj, { [key]: value })
+  return Object.assign({}, })
 }
 
 const recipe = { eggs: 3 }
