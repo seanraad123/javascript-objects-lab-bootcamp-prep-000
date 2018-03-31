@@ -28,9 +28,8 @@ function deleteFromObjectByKey(object, key){
 }
 
 function deleteFromObjectByKey(object, key){
-  delete object.key;
-  p(recipes)
-  p(object)
+  delete object.key
 }
 
 deleteFromObjectByKey(recipes,"EggSandwhich")
+p(recipes)
