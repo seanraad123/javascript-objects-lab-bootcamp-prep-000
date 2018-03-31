@@ -6,10 +6,10 @@ var recipes = { EggSandwhich: "2 eggs"}
  
 function updateObjectWithKeyAndValue(object, key, value){
     object[key] = value;
-    p(object)
+    return object
 }
 
-updateObjectWithKeyAndValue(recipes,"Burrito", "1 Tortilla")
+
 
 /*
 function updateObjectWithKeyAndValue(object, key, value){
