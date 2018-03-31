@@ -9,7 +9,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   p(object[key] = value)
 }
 
-p(updateObjectWithKeyAndValue(recipes, "EggSandwhich" , "1 Tortilla"))
+updateObjectWithKeyAndValue(recipes, "EggSandwhich" , "1 Tortilla")
 
 
 
