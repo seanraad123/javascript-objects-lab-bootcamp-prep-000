@@ -14,6 +14,8 @@ function updateObjectWithKeyAndValue(object, key, value){
 function updateObjectWithKeyAndValue(object, key, value){
     Object.assign({}, object, { [key]: value })
     return object
+    return key
+    return value
 }
 
 p(updateObjectWithKeyAndValue(recipes, "Burrito", "1 Tortilla"))
