@@ -33,8 +33,7 @@ function deleteFromObjectByKey(object, key){
 
 function deleteFromObjectByKey(object, key){
   var newObj = Object.assign({}, object)
-  p(newObj.["EggSandwhich"])
-  p(newObj)
+  p(newObj."EggSandwhich")
 }
 
 deleteFromObjectByKey(recipes, "EggSandwhich")
