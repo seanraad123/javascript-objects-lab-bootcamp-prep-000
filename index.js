@@ -40,8 +40,8 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return newObj
 }
 
-function destructivelyDeleteFromObjectByKey(object, key){
-  
+function updateObjectWithObject(targetObject, updatesObject) {
+  return Object.assign({}, targetObject, updatesObject)
 }
 
 
