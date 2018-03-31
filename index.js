@@ -4,4 +4,10 @@ function p(value){
  
 var recipes = { EggSandwhich: "2 eggs"}
  
-updateObjectWithKeyAndValue(object, key, value)
+function updateObjectWithKeyAndValue(object, key, value){
+  return object
+  
+}
+
+
+p(updateObjectWithKeyAndValue(recipes, "Burrito", "1 tortilla"))
