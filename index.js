@@ -16,6 +16,7 @@ function updateObjectWithKeyAndValue(object, key, value){
     
 }
 
-p(updateObjectWithKeyAndValue(recipes, "Burrito", "1 Tortilla"))
 
-
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value){
+  return Object.assign(object, { [key]: value })
+}
