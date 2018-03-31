@@ -40,9 +40,6 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return newObj
 }
 
-p(destructivelyDeleteFromObjectByKey(recipes,"EggSandwhich"))
-
-
 
 
 
