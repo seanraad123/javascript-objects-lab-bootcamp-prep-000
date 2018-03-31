@@ -28,9 +28,7 @@ function deleteFromObjectByKey(object, key){
 }
 
 function deleteFromObjectByKey(object, key){
-  delete object.key
-  p(recipes)
+  delete object.key;
+  return recipes
 }
-
-deleteFromObjectByKey(recipes, "EggSandwhich")
 
