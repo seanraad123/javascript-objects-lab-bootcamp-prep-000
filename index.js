@@ -3,15 +3,17 @@ function p(value){
 }
  
 var recipes = { EggSandwhich: "2 eggs"}
- 
+
+/*
 function updateObjectWithKeyAndValue(object, key, value){
     object[key] = value;
     return object
 }
-
+*/
 
 function updateObjectWithKeyAndValue(object, key, value){
-  return Object.assign({}, obj, { [key]: value })
+    Object.assign({}, object, { [key]: value })
+    return object
 }
 
 p(updateObjectWithKeyAndValue(recipes, "Burrito", "1 Tortilla"))
