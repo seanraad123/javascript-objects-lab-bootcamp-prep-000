@@ -37,7 +37,7 @@ function deleteFromObjectByKey(object, key){
   return object
 }
 
-p(deleteFromObjectByKey(newObj, "EggSandwhich"))
+p(deleteFromObjectByKey(recipes, "EggSandwhich"))
 
 
 
