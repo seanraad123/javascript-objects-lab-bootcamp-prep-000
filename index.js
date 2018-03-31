@@ -29,7 +29,6 @@ function deleteFromObjectByKey(object, key){
 
 function deleteFromObjectByKey(object, key){
   delete object.key
-  p(object)
   p(recipes)
 }
 
