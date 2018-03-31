@@ -40,7 +40,16 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return newObj
 }
 
-function 
+
+function destructivelyDeleteFromObjectByKey(obj, key,) {
+ 
+  return Object.assign({}, obj, { [key]: value })
+}
+
+const recipe = { eggs: 3 }
+ 
+updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
+ 
 
 
 
