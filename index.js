@@ -35,10 +35,12 @@ function deleteFromObjectByKey(object, key){
 
 
 function destructivelyDeleteFromObjectByKey(object, key){
-  var newObj = Object.assign({}, object)
-  delete newObj[key];
+  var newObj = object.assign({}, object)
+  delete newObj[key]
   return newObj
 }
+
+p(destructivelyDeleteFromObjectByKey(recipes,"EggSandwhich"))
 
 
 
