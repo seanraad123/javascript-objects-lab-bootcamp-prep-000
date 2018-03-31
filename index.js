@@ -5,6 +5,7 @@ function p(value){
 var recipes = { EggSandwhich: "2 eggs"}
  
 function updateObjectWithKeyAndValue(object, key, value){
+  return recipes
   return object[key] = value
   
 }
