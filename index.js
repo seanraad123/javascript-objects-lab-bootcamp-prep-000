@@ -10,7 +10,7 @@ function updateObjectWithKeyAndValue(object, key, value){
   return recipes
 }
 
-p(updateObjectWithKeyAndValue(recipes, "Burrito" , "1 Tortilla"))
+p(updateObjectWithKeyAndValue(recipes, "EggSandwhich" , "1 Tortilla"))
 
 /*
 function updateObjectWithKeyAndValue(object, key, value){
