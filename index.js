@@ -42,14 +42,9 @@ function destructivelyDeleteFromObjectByKey(object, key){
 
 
 function destructivelyDeleteFromObjectByKey(obj, key,) {
- 
-  return Object.assign({}, })
+  delete obj[key]
+  return obj
 }
-
-const recipe = { eggs: 3 }
- 
-updateObjectWithKeyAndValue(recipe, 'chocolate', '1 cup')
- 
 
 
 
