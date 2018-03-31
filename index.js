@@ -40,7 +40,7 @@ function destructivelyDeleteFromObjectByKey(object, key){
   return newObj
 }
 
-function updateObjectWithObject(targetObject, updatesObject) {
+function destructivelyDeleteFromObjectByKey(targetObject, updatesObject) {
   return Object.assign({}, targetObject, updatesObject)
 }
 
